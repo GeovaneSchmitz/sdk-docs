@@ -11,9 +11,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-    ],
+    nav: [{ text: "Home", link: "/" }],
 
     sidebar: [
       {
@@ -23,7 +21,7 @@ export default defineConfig({
           { text: "Core Concepts", link: "/core-concepts" },
           {
             text: "Commands",
-            link: "/commands",
+            link: "/commands/init",
             items: [
               { text: "Init", link: "/commands/init" },
               { text: "Create App", link: "/commands/create-app" },
@@ -33,6 +31,8 @@ export default defineConfig({
               { text: "Install", link: "/commands/install" },
             ],
           },
+          { text: "Privacy Policy", link: "/privacy" },
+          { text: "Uninstall", link: "/uninstall" },
         ],
       },
     ],

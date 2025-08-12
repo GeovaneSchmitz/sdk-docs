@@ -4,21 +4,47 @@ Welcome to Datallog\! This guide will get you from zero to a running micro-appli
 
 ### Prerequisites
 
-Before you start, you'll need to set up your system. The requirements vary slightly by operating system.
+::: tip
+Before installing, it's a good idea to update your system packages to ensure you have the latest security patches and dependencies.
+#### Linux
+You can update your system packages using the following commands based on your distribution:
+##### Ubuntu/Debian
+
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
+##### Fedora/RHEL/CentOS
+
+```bash
+sudo dnf update -y
+```
+
+##### Arch Linux
+
+```bash
+sudo pacman -Syu
+```
+
+
+#### macOS
+on macOS you can update Homebrew and installed packages with:
+```bash
+brew update && brew upgrade
+```
+:::
 
 ### Windows (via WSL)
 
 Datallog runs in a Linux environment. On Windows, you can achieve this using the **Windows Subsystem for Linux (WSL)**.
 
 1.  **Install WSL**: Follow the [official Microsoft guide to install WSL](https://learn.microsoft.com/en-us/windows/wsl/install). We recommend installing the **Ubuntu** distribution.
-2.  **Install Docker Desktop**: Download and install [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop/).
-3.  **Enable WSL Integration**: In Docker Desktop settings, navigate to **Resources \> WSL Integration** and ensure that integration is enabled for your installed Linux distribution (e.g., Ubuntu).
 
 Once WSL and Docker are set up, open your WSL terminal (e.g., Ubuntu) and follow the **Linux** installation instructions below.
 
 ### macOS
 
 Ensure you have the [Homebrew](https://brew.sh/) package manager installed. The installer script will use it to manage dependencies.
+
 
 ### Linux
 
@@ -89,7 +115,7 @@ def first_step(seed):
   This function is the entry point and returns a simple string.
   The 'seed' argument is the initial data passed when the app is run.
   """
-  return "Hello, World!"
+return seed["message"] if seed else "Hello, World!"
 
 # The second and final step.
 @step()
@@ -102,6 +128,13 @@ def second_step(text_input):
 ```
 
 ### 4\. Run the Application
+::: tip
+You can provide initial seed data to your application in two ways:
+- Use `--seed` for small, direct JSON values from the command line (e.g., `datallog run hello-app --seed '{"message": "Hello!"}'`).
+- Use `--seed-file` for larger or more complex JSON data stored in a file (e.g., `datallog run hello-app --seed-file seed.json`).  
+If you don't specify either option but a `seed.json` file exists in your application's directory, it will be used automatically.  
+**Note:** `--seed` and `--seed-file` cannot be used together.
+:::
 
 You can run your application locally to test it. Use the `run` command followed by the application name.
 
@@ -109,27 +142,4 @@ You can run your application locally to test it. Use the `run` command followed 
 datallog run hello-app
 ```
 
-You should see output indicating the steps are being executed, with the final result being `HELLO, WORLD!`.
-
------
-
-## Core Concepts
-
-Understanding these two concepts is key to building with Datallog.
-
-### Steps
-
-A Datallog application is a workflow composed of one or more **steps**.
-
-  * Each step is a Python function decorated with either `@core_step` or `@step`.
-  * The `@core_step` decorator marks the entry point of your application.
-  * Steps pass data to each other by returning a serializable JSON object. The output of one step becomes the input (`seed`) of the next.
-
-### Automatic Parallelization
-
-Datallog can automatically parallelize your workflow.
-
-  * If a step returns a **list** of items, Datallog will invoke the next step for **each item in the list in parallel**.
-  * This "forking" behavior allows you to process large datasets efficiently without writing any complex concurrency code.
-
-To deploy your application to the cloud, use the `datallog login` and `datallog push` commands. Check the command help (`datallog <command> --help`) for more details. Happy coding\! ✨
+You should see output indicating the steps are being executed, with the final result being printed to the console.
