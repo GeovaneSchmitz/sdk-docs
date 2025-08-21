@@ -58,17 +58,17 @@ datallog run hello-app
 **Run the app with a simple string as the seed data:**
 
 ```sh
-datallog run user-processor -s "user-id-123"
+datallog run hello-app -s "user-id-123"
 ```
 
 **Run the app using a JSON file as the seed data:**
 
 ```sh
-datallog run data-pipeline -f ./initial-data.json
+datallog run hello-app -f ./initial-data.json
 ```
 
 **Run the app with 8 parallel workers and save the logs to a `run_logs` directory:**
 
 ```sh
-datallog run image-resizer -p 8 -l ./run_logs
+datallog run hello-app -p 8 -l ./run_logs
 ```
