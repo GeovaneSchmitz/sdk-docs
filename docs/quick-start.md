@@ -79,20 +79,20 @@ datallog --version
 
 Let's build a simple "Hello, World\!" application. 🚀
 
-### 1\. Initialize a Deployment
+### 1\. Initialize a Project
 
-First, create a new directory for your project, navigate into it, and initialize a Datallog deployment.
+First, create a new directory for your project, navigate into it, and initialize a Datallog project.
 
 ```bash
-mkdir my-first-deployment && cd my-first-deployment
-datallog init
+datallog create-project my-first-datallog-project
+cd my-first-datallog-project
 ```
 
-This command creates a `datallog.yml` file, which manages your project's configuration and applications.
+This command creates a `project.ini` file, which manages your project's configuration and applications.
 
 ### 2\. Create an Application
 
-Now, let's create a new micro-application within the deployment. We'll call it `hello-app`.
+Now, let's create a new micro-application within the project. We'll call it `hello-app`.
 
 ```bash
 datallog create-app hello-app

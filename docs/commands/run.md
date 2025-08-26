@@ -1,6 +1,6 @@
 # datallog run
 
-The `datallog run` command executes a specific application locally within the current deployment. This is the primary way to test and debug your application's logic before pushing it to the cloud.
+The `datallog run` command executes a specific application locally within the current project. This is the primary way to test and debug your application's logic before pushing it to the cloud.
 
 ## Usage
 

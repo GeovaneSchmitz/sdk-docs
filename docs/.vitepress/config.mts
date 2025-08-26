@@ -21,14 +21,15 @@ export default defineConfig({
           { text: "Core Concepts", link: "/core-concepts" },
           {
             text: "Commands",
-            link: "/commands/init",
+            link: "/commands/create-project",
             items: [
-              { text: "Init", link: "/commands/init" },
+              { text: "Create Project", link: "/commands/create-project" },
               { text: "Create App", link: "/commands/create-app" },
               { text: "Run", link: "/commands/run" },
               { text: "Login", link: "/commands/login" },
               { text: "Push", link: "/commands/push" },
               { text: "Install", link: "/commands/install" },
+              { text: "Update SDK", link: "/commands/sdk-update" },
             ],
           },
           { text: "Uninstall", link: "/uninstall" },

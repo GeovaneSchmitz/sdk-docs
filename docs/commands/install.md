@@ -1,6 +1,6 @@
 # datallog install
 
-The `datallog install` command installs Python packages into the deployment's environment. Datallog ensures these packages are available to all applications when they are run locally or deployed to the cloud.
+The `datallog install` command installs Python packages into the project's environment. Datallog ensures these packages are available to all applications when they are run locally or deployed to the cloud.
 
 You can install packages individually by name or by providing a standard `requirements.txt` file.
 
