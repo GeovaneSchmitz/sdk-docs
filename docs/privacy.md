@@ -4,9 +4,9 @@ Effective date: Aug 7, 2025
 
 Thanks for trusting Datallog, Inc. ('Datallog', 'we', 'us', 'our') with your personal information, your code, and your projects! We take our responsibility to you very seriously, and so this Privacy Statement describes how we handle your data.
 
-This Privacy Statement applies to all websites we own and operate and to all services we provide (collectively, the 'Services'). So…PLEASE READ THIS PRIVACY STATEMENT CAREFULLY. By using the Services, you are expressly and voluntarily accepting the terms and conditions of this Privacy Statement and our [Terms of Service](./privacyterms-of-use), which include allowing us to process information about you.
+This Privacy Statement applies to all websites we own and operate and to all services we provide (collectively, the 'Services'). So…PLEASE READ THIS PRIVACY STATEMENT CAREFULLY. By using the Services, you are expressly and voluntarily accepting the terms and conditions of this Privacy Statement and our [Terms of Service](./terms-of-use), which include allowing us to process information about you.
 
-Datalog will process, transmit and store personal data in accordance with this Privacy Statement, and where Datallog is a data processor, the Data Processing Terms available at <https://docs.datallog.com/legal/dataprocessing> (the “Data Processing Terms”). By using the Services you agree to be bound by the Data Processing Terms, if applicable. You should not use the Services to process sensitive personal information, secrets, or other sensitive data. Our contact information appears at the end of this Privacy Statement.
+Datalog will process, transmit and store personal data in accordance with this Privacy Statement, and where Datallog is a data processor, the Data Processing Terms available at [https://docs.datallog.com/dataprocessing](./dataprocessing.md) (the “Data Processing Terms”). By using the Services you agree to be bound by the Data Processing Terms, if applicable. You should not use the Services to process sensitive personal information, secrets, or other sensitive data. Our contact information appears at the end of this Privacy Statement.
 
 ## **Table of Contents**
 
@@ -130,11 +130,11 @@ In addition to the rights above, you have the right to lodge a complaint with th
 
 To the extent that our processing of your Personal Information is subject to certain international laws (including, but not limited to, the European Union’s General Data Protection Regulation (GDPR)), Datallog is required to notify you about the legal basis on which we process your Personal Information. The legal bases for using your information as set out in this Privacy Statement are as follows:
 
-- Contract Performance. We require your information to perform our obligations under our contract with you, such as to comply with the[Terms of Service](./privacyterms-of-use). We also need to collect and process your transactional/financial information in order to perform our obligations under our paid account contract with you.
+- Contract Performance. We require your information to perform our obligations under our contract with you, such as to comply with the[Terms of Service](./terms-of-use). We also need to collect and process your transactional/financial information in order to perform our obligations under our paid account contract with you.
 - Consent. We rely on your consent to use your Personal Information when you fill out the information in your user profile; when you decide to participate in a research project, beta program, or survey; and for marketing communications, where applicable. The processing of your Personal Information under this legal basis is entirely optional, and you have the ability to access, modify, and delete your information at any time. You may withdraw your consent at any time.
 - Legitimate Interests. The remainder of the processing of Personal Information we perform is necessary for the purposes of our legitimate interest, for example, to ensure the security of our Services, operate our business, respond to your questions, engage in certain marketing, make and receive payments, prevent fraud, conduct analysis, improve our platform or services, comply with legal obligations, enforce our legal terms, engage in a business change (e.g., sale, merger), to know the individual to whom we are providing access to the Services, and to create anonymized data.
 
-If you would like to request deletion of data we process on the basis of consent, or if you object to our processing of your Personal Information, please email us at <contato@datallog./privacy>.
+If you would like to request deletion of data we process on the basis of consent, or if you object to our processing of your Personal Information, please email us at <contato@datallog.com>.
 
 ## **8.How We Protect Your Data and Our Services** {#HowWeProtectYourDataandOurServices}
 

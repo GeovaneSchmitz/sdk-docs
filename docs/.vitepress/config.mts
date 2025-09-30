@@ -32,6 +32,7 @@ export default defineConfig({
               { text: "Update SDK", link: "/commands/sdk-update" },
             ],
           },
+          { text: "Calling Applications", link: "/calling-applications" },
           { text: "Uninstall", link: "/uninstall" },
           { text: "Privacy Policy", link: "/privacy" },
           { text: "Terms of Use", link: "/terms-of-use" },
