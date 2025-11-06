@@ -7,7 +7,7 @@ Running this command will typically open a web browser or prompt you for an API 
 **Usage**
 
 ```sh
-datallog login [options]
+datallog login
 ```
 
 ### datallog logout
@@ -17,5 +17,5 @@ The `datallog logout` command logs you out of the Datallog service, clearing you
 **Usage**
 
 ```sh
-datallog logout [options]
+datallog logout
 ```

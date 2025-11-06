@@ -57,13 +57,13 @@ Installing the Datallog SDK is a simple one-liner. The script will automatically
 Open your terminal (or your WSL terminal on Windows) and run one of the following commands:
 
 ```bash
-curl -SsLf https://raw.githubusercontent.com/Datallog/mwm-sdk-datallog/master/install.sh | bash
+curl -SsLf https://mwm.datallog.com/install.sh | bash
 ```
 
 Or, if you prefer `wget`:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/Datallog/mwm-sdk-datallog/master/install.sh | bash
+wget -qO- https://mwm.datallog.com/install.sh | bash
 ```
 
 After the installation is complete, **restart your terminal** for the `PATH` changes to take effect.
@@ -115,7 +115,7 @@ def first_step(seed):
   This function is the entry point and returns a simple string.
   The 'seed' argument is the initial data passed when the app is run.
   """
-return seed["message"] if seed else "Hello, World!"
+  return seed["message"] if seed else "Hello, World!"
 
 # The second and final step.
 @step()
