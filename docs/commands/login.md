@@ -2,7 +2,7 @@
 
 The `datallog login` command authenticates you with the Datallog service. This is a required step before you can push projects to the cloud.
 
-Running this command will typically open a web browser or prompt you for an API key to complete the authentication process.
+Running this command will prompt you for an API key to complete the authentication process.
 
 **Usage**
 
